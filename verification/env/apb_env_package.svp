@@ -1,0 +1,14 @@
+package apb_env_package;
+
+import uvm_pkg::*;
+`include "uvm_macros.svh"
+
+//importing agent package
+import apb_agent_package::*;
+
+//importing here env .sv code 
+`include "apb_scoreboard.sv"
+`include "apb_coverage.sv"
+`include "apb_env.sv"
+
+endpackage
