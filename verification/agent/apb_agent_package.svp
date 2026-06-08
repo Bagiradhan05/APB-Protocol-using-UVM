@@ -1,0 +1,16 @@
+package apb_agent_package;
+
+import uvm_pkg::*;
+`include "uvm_macros.svh"
+
+//importing here seq package
+//import apb_seq_package::*;
+
+//importing here agent .sv code 
+`include "apb_transaction.sv"
+`include "apb_sequencer.sv"
+`include "apb_driver.sv"
+`include "apb_monitor.sv"
+`include "apb_agent.sv"
+
+endpackage
